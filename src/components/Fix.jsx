@@ -16,11 +16,11 @@ import { useState } from "react";
   }
 
   return (
-    <div className="h-screen bg-gray-300 flex items-center justify-center">
+    <div className="h-screen bg-fuchsia-300 flex items-center justify-center">
       <div className="flex flex-row gap-12">
         <button
           onClick={() => decreaseNumber()}
-          className="size-12 bg-red-600 text-2xl text-white">
+          className="size-13 bg-fuchsia-900 text-2xl text-fuchsia-100">
           -
         </button>
 
@@ -28,7 +28,7 @@ import { useState } from "react";
 
         <button
           onClick={increaseNumber}
-          className="size-12 bg-green-600 text-2xl text-white">
+          className="size-13 bg-fuchsia-900 text-2xl text-fuchsia-100">
           +
         </button>
       </div>
