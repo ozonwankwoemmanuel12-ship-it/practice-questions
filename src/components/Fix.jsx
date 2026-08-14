@@ -16,7 +16,7 @@ import { useState } from "react";
   }
 
   return (
-    <div className="h-screen bg-fuchsia-300 flex items-center justify-center">
+    <div className="h-screen bg-gray-300 flex items-center justify-center">
       <div className="flex flex-row gap-12">
         <button
           onClick={() => decreaseNumber()}
